@@ -1,0 +1,23 @@
+#scrollable-dropdown-menu {
+  max-height: 150px;
+  overflow-y: auto;
+}
+#change-color-on-mouse-over:hover {
+  background-color: #E3E3E3;
+}
+li {
+  display: list-item;
+  white-space: nowrap;
+  list-style-position: inside;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.size-of-bar {
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 240px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

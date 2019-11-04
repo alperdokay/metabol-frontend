@@ -1,0 +1,1181 @@
+[{
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "oaa_c",
+  "borderMetaboliteName": "Oxaloacetate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "pep_c",
+  "borderMetaboliteName": "Phosphoenolpyruvate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "pyr_c",
+  "borderMetaboliteName": "Pyruvate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "coa_c",
+  "borderMetaboliteName": "Coenzyme A"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "mal__L_c",
+  "borderMetaboliteName": "L-Malate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "oaa_c",
+  "borderMetaboliteName": "Oxaloacetate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "succ_c",
+  "borderMetaboliteName": "Succinate"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "coa_c",
+  "borderMetaboliteName": "Coenzyme A"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "pep_c",
+  "borderMetaboliteName": "Phosphoenolpyruvate"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "pyr_c",
+  "borderMetaboliteName": "Pyruvate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "nadh_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide - reduced"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "succ_c",
+  "borderMetaboliteName": "Succinate"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "coa_c",
+  "borderMetaboliteName": "Coenzyme A"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "pyr_c",
+  "borderMetaboliteName": "Pyruvate"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "pep_c",
+  "borderMetaboliteName": "Phosphoenolpyruvate"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Anaplerotic reactions",
+  "borderMetaboliteId": "succ_c",
+  "borderMetaboliteName": "Succinate"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "akg_c",
+  "borderMetaboliteName": "2-Oxoglutarate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "coa_c",
+  "borderMetaboliteName": "Coenzyme A"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "akg_c",
+  "borderMetaboliteName": "2-Oxoglutarate"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "coa_c",
+  "borderMetaboliteName": "Coenzyme A"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "nadh_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide - reduced"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Pentose Phosphate Pathway",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "coa_c",
+  "borderMetaboliteName": "Coenzyme A"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Biomass and maintenance functions",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "co2_c",
+  "borderMetaboliteName": "CO2"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "icit_c",
+  "borderMetaboliteName": "Isocitrate"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "mal__L_c",
+  "borderMetaboliteName": "L-Malate"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "oaa_c",
+  "borderMetaboliteName": "Oxaloacetate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "oaa_c",
+  "borderMetaboliteName": "Oxaloacetate"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "akg_c",
+  "borderMetaboliteName": "2-Oxoglutarate"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "coa_c",
+  "borderMetaboliteName": "Coenzyme A"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "nadh_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide - reduced"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Pentose Phosphate Pathway",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "coa_c",
+  "borderMetaboliteName": "Coenzyme A"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Citric Acid Cycle",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "gln__L_c",
+  "borderMetaboliteName": "L-Glutamine"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "glu__L_c",
+  "borderMetaboliteName": "L-Glutamate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "akg_c",
+  "borderMetaboliteName": "2-Oxoglutarate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Pentose Phosphate Pathway",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Glutamate Metabolism",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "accoa_c",
+  "borderMetaboliteName": "Acetyl-CoA"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "co2_c",
+  "borderMetaboliteName": "CO2"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "pep_c",
+  "borderMetaboliteName": "Phosphoenolpyruvate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "3pg_c",
+  "borderMetaboliteName": "3-Phospho-D-glycerate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "accoa_c",
+  "borderMetaboliteName": "Acetyl-CoA"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "f6p_c",
+  "borderMetaboliteName": "D-Fructose 6-phosphate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "g3p_c",
+  "borderMetaboliteName": "Glyceraldehyde 3-phosphate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "pep_c",
+  "borderMetaboliteName": "Phosphoenolpyruvate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "pyr_c",
+  "borderMetaboliteName": "Pyruvate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "accoa_c",
+  "borderMetaboliteName": "Acetyl-CoA"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "amp_c",
+  "borderMetaboliteName": "AMP"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "nadh_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide - reduced"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Pentose Phosphate Pathway",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "g3p_c",
+  "borderMetaboliteName": "Glyceraldehyde 3-phosphate"
+}, {
+  "subsystemSource": "Pentose Phosphate Pathway",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "accoa_c",
+  "borderMetaboliteName": "Acetyl-CoA"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "pyr_c",
+  "borderMetaboliteName": "Pyruvate"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Glycolysis\/Gluconeogenesis",
+  "borderMetaboliteId": "pep_c",
+  "borderMetaboliteName": "Phosphoenolpyruvate"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Inorganic Ion Transport and Metabolism",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Inorganic Ion Transport and Metabolism",
+  "borderMetaboliteId": "nh4_c",
+  "borderMetaboliteName": "Ammonium"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Inorganic Ion Transport and Metabolism",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Inorganic Ion Transport and Metabolism",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Inorganic Ion Transport and Metabolism",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Inorganic Ion Transport and Metabolism",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Inorganic Ion Transport and Metabolism",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nad_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nad_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "fum_c",
+  "borderMetaboliteName": "Fumarate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nad_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "succ_c",
+  "borderMetaboliteName": "Succinate"
+}, {
+  "subsystemSource": "Exchange",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h_e",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nad_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Inorganic Ion Transport and Metabolism",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h_e",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Pentose Phosphate Pathway",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Pentose Phosphate Pathway",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nadp_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "nad_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "atp_c",
+  "borderMetaboliteName": "ATP"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h_e",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Oxidative Phosphorylation",
+  "borderMetaboliteId": "succ_c",
+  "borderMetaboliteName": "Succinate"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "co2_c",
+  "borderMetaboliteName": "CO2"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "e4p_c",
+  "borderMetaboliteName": "D-Erythrose 4-phosphate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "f6p_c",
+  "borderMetaboliteName": "D-Fructose 6-phosphate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "g3p_c",
+  "borderMetaboliteName": "Glyceraldehyde 3-phosphate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "f6p_c",
+  "borderMetaboliteName": "D-Fructose 6-phosphate"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "g3p_c",
+  "borderMetaboliteName": "Glyceraldehyde 3-phosphate"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Pentose Phosphate Pathway",
+  "borderMetaboliteId": "nadph_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide phosphate - reduced"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "accoa_c",
+  "borderMetaboliteName": "Acetyl-CoA"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "accoa_c",
+  "borderMetaboliteName": "Acetyl-CoA"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "pyr_c",
+  "borderMetaboliteName": "Pyruvate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "accoa_c",
+  "borderMetaboliteName": "Acetyl-CoA"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "coa_c",
+  "borderMetaboliteName": "Coenzyme A"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "coa_c",
+  "borderMetaboliteName": "Coenzyme A"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "pyr_c",
+  "borderMetaboliteName": "Pyruvate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "nadh_c",
+  "borderMetaboliteName": "Nicotinamide adenine dinucleotide - reduced"
+}, {
+  "subsystemSource": "Transport, Extracellular",
+  "subsystemTarget": "Pyruvate Metabolism",
+  "borderMetaboliteId": "for_c",
+  "borderMetaboliteName": "Formate"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "co2_c",
+  "borderMetaboliteName": "CO2"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Anaplerotic reactions",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "mal__L_c",
+  "borderMetaboliteName": "L-Malate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "f6p_c",
+  "borderMetaboliteName": "D-Fructose 6-phosphate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "g6p_c",
+  "borderMetaboliteName": "D-Glucose 6-phosphate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "gln__L_c",
+  "borderMetaboliteName": "L-Glutamine"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "glu__L_c",
+  "borderMetaboliteName": "L-Glutamate"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Biomass and maintenance functions",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "pyr_c",
+  "borderMetaboliteName": "Pyruvate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "akg_c",
+  "borderMetaboliteName": "2-Oxoglutarate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "fum_c",
+  "borderMetaboliteName": "Fumarate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "mal__L_c",
+  "borderMetaboliteName": "L-Malate"
+}, {
+  "subsystemSource": "Citric Acid Cycle",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "succ_c",
+  "borderMetaboliteName": "Succinate"
+}, {
+  "subsystemSource": "Exchange",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "for_e",
+  "borderMetaboliteName": "Formate"
+}, {
+  "subsystemSource": "Exchange",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "succ_e",
+  "borderMetaboliteName": "Succinate"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "akg_c",
+  "borderMetaboliteName": "2-Oxoglutarate"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "gln__L_c",
+  "borderMetaboliteName": "L-Glutamine"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "glu__L_c",
+  "borderMetaboliteName": "L-Glutamate"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glutamate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "f6p_c",
+  "borderMetaboliteName": "D-Fructose 6-phosphate"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "g6p_c",
+  "borderMetaboliteName": "D-Glucose 6-phosphate"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Glycolysis\/Gluconeogenesis",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "pyr_c",
+  "borderMetaboliteName": "Pyruvate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "adp_c",
+  "borderMetaboliteName": "ADP"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "fum_c",
+  "borderMetaboliteName": "Fumarate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "h_c",
+  "borderMetaboliteName": "H+"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "o2_c",
+  "borderMetaboliteName": "O2"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Oxidative Phosphorylation",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "succ_c",
+  "borderMetaboliteName": "Succinate"
+}, {
+  "subsystemSource": "Pentose Phosphate Pathway",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "g6p_c",
+  "borderMetaboliteName": "D-Glucose 6-phosphate"
+}, {
+  "subsystemSource": "Pentose Phosphate Pathway",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "h2o_c",
+  "borderMetaboliteName": "H2O"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "ac_c",
+  "borderMetaboliteName": "Acetate"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "acald_c",
+  "borderMetaboliteName": "Acetaldehyde"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "etoh_c",
+  "borderMetaboliteName": "Ethanol"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "lac__D_c",
+  "borderMetaboliteName": "D-Lactate"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "pi_c",
+  "borderMetaboliteName": "Phosphate"
+}, {
+  "subsystemSource": "Pyruvate Metabolism",
+  "subsystemTarget": "Transport, Extracellular",
+  "borderMetaboliteId": "pyr_c",
+  "borderMetaboliteName": "Pyruvate"
+}]

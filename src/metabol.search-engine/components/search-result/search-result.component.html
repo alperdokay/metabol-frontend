@@ -1,0 +1,59 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <search-bar></search-bar>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="col-md-4" *ngIf="filteredPathways.length">
+          <h2>Pathways
+            <small>-
+              {{filteredPathways.length}}
+              Result Found</small>
+          </h2>
+          <p *ngFor="let item of filteredPathways; let i=index">
+            <a [routerLink]="['/subsystem/detail', item]">
+              <b>{{item}}</b>
+            </a>
+          </p>
+     </div>
+    <div class="col-md-4" *ngIf="filteredReactions.length">
+      <h2>Reactions
+        <small>-
+          {{filteredReactions.length}}
+          Result Found</small>
+      </h2>
+      <p *ngFor="let item of filteredReactions; let i=index ">
+        <a [routerLink]="['/reaction', item.id]">
+          <b>{{item.id}}</b> {{item.name}}
+        </a>
+      </p>
+    </div>
+    <div class="col-md-4" *ngIf="filteredMetabolites.length">
+      <h2>Metabolites
+        <small>-
+          {{filteredMetabolites.length}}
+          Result Found</small>
+      </h2>
+      <p *ngFor="let item of filteredMetabolites; let i=index">
+        <a [routerLink]="['/metabolite', item.id]">
+          <b>{{item.id}}</b> {{item.name}}
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="al">
+    <div class="row" *ngIf="filteredReactions.length == 0 && filteredMetabolites.length == 0 && filteredPathways.length == 0">
+      <h1>NOTHING FOUND</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <br>
+  </div>
+</div>

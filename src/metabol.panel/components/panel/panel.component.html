@@ -1,0 +1,23 @@
+<div id="wrapper">
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li>
+          <a [routerLink]="['/panel/past-analysis']">
+            <i class="glyphicon glyphicon-bookmark"></i> Past Analysis Results
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/panel/profile']">
+            <i class="glyphicon glyphicon-user"></i> Profile
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.sidebar-collapse -->
+  </div>
+  <!-- /.navbar-static-side -->
+  <div id="page-wrapper">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<section id="past-analysis" class="container">
+  <div class="row">
+    <div class="col-mat-12">
+      <button type="button" class="btn btn-default" (click)="submit()">
+	Compare
+      </button>
+      <form [formGroup]="form">
+	<mat-tab-group>
+	  <ng-template ngFor let-type [ngForOf]="data | keys"> 
+	    <mat-tab *ngIf="data[type].length != 0" [label]="(type == 'list' ? 'private' : type) | titlecase">
+	      <div class="panel panel-default">
+		<ul class="list-group">
+		  <li class="list-group-item" *ngFor="let i of data[type] | orderBy:'name'">
+		    <input type="checkbox" [formControlName]="i.id" />
+		    <i class="glyphicon glyphicon-{{i.status ?  'saved' : 'time' }}"></i>
+		    <a [routerLink]="['/past-analysis', i.id]">
+		      {{i.name}} - ({{i.method}}) <!--({{i.status ?  'done' : 'running' }})-->
+		    </a>
+		  </li>
+		</ul>
+	      </div>
+	    </mat-tab>
+	  </ng-template>
+	</mat-tab-group>
+      </form>
+    </div>
+  </div>
+</section>

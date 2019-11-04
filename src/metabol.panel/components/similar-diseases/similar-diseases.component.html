@@ -1,0 +1,16 @@
+<div class="panel panel-default">
+  <table *ngIf="diseases" class="table table-hover">
+    <thead>
+      <tr>
+	<th>Disease</th>
+	<th>Similarity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of diseases | pairs">
+	<td>{{ p[0] }}</td>
+	<td>{{ p[1] }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

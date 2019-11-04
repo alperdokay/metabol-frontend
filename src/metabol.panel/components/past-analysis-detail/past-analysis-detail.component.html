@@ -1,0 +1,14 @@
+<h1>
+  {{ data?.name }} - ({{data?.method}}) <!--({{data?.status ?  'done' : 'running' }})-->
+</h1>
+<div *ngIf="data?.results_pathway">
+  <div>
+    <pathway-histogram [pathwayScores]="data.results_pathway"></pathway-histogram>
+  </div>
+  <div>
+    <similar-diseases [id]="id"></similar-diseases>
+  </div>
+  <div>
+    <result-table [data]="[data]"></result-table>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+<simple-notifications [options]="notificationOptions"></simple-notifications>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" id="logo"  [routerLink]="['search']">
+        <img src="assets/img/logo.png" alt=""/>
+        <span>Metabolitics - 0.0.8</span>
+      </a>
+    </div>
+    <div class="nav navbar-nav navbar-right">
+      <button mat-button [routerLink]="['analyze']">Analyze</button>
+      <mat-menu #searchMenu="matMenu">
+	<button mat-menu-item [routerLink]="['search']">Search Pathways-Metabolites-Reactions</button>
+	<button mat-menu-item [routerLink]="['search-analysis']">Search Metabolomics Analysis</button>
+      </mat-menu>
+      <button mat-button [matMenuTriggerFor]="searchMenu">
+	Search
+      </button>
+      <button mat-button [routerLink]="['documentation']">
+	Documentation
+      </button>
+      <mat-menu #browseMenu="matMenu">
+	<button mat-menu-item [routerLink]="['subsystem']">Browse Pathways</button>
+	<button mat-menu-item  [routerLink]="['past-analysis']">Browse Analysis</button>
+      </mat-menu>
+      <button mat-button [matMenuTriggerFor]="browseMenu">
+	Browse
+      </button>
+      <button mat-button>
+	Contact
+      </button>
+      <button mat-button [routerLink]="['login']" *ngIf="!loginService.isLoggedIn()">
+	Login
+      </button>
+      <mat-menu #accountMenu="matMenu">
+	<button mat-menu-item [routerLink]="['panel']">Profile</button>
+	<button mat-menu-item [routerLink]="['past-analysis']">Past Analysis</button>
+	<button mat-menu-item [routerLink]="['panel']" (click)="loginService.logout()">
+	  Logout
+	</button>
+      </mat-menu>
+      <button mat-button [matMenuTriggerFor]="accountMenu" *ngIf="loginService.isLoggedIn()">
+	Account
+      </button>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

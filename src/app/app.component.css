@@ -1,0 +1,13 @@
+#logo img{
+  width: 40px;
+  margin-top: -10px;
+  display: inline;
+}
+
+#logo span{
+  font-size: 30px;
+}
+
+.navbar-right{
+    margin-top: 5px;
+}

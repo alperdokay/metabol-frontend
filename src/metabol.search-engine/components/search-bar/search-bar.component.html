@@ -1,0 +1,95 @@
+<div class="input-group">
+  <input [(ngModel)]="query" type="text" class="form-control" placeholder="Search for reaction, metabolite or pathway..." (keyup)=getSearch(query)>
+  <span class="input-group-btn">
+    <button class="btn btn-default" type="button" (click)="search(query)">
+      Search
+    </button>
+  </span>
+</div>
+
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="size-of-bar" *ngIf="filteredReactions.length > 0 || filteredMetabolites.length > 0">
+
+      <div class="col-md-6">
+        <div *ngIf="filteredReactions.length > 0">
+          <h2>Reactions</h2>
+          <div *ngFor="let r of filteredReactions" id="change-color-on-mouse-over">
+            <ul>
+              <li>
+                <a (click)="search(r.name)">
+                  <b>{{ r.id }}</b> {{ r.name }}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div *ngIf="filteredMetabolites.length > 0">
+          <h2>Metabolites</h2>
+          <div *ngFor="let m of filteredMetabolites" id="change-color-on-mouse-over">
+            <ul>
+              <li>
+                <a (click)="search(m.name)">
+                  <b>{{ m.id }}</b> {{ m.name }}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div> -->
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="size-of-bar" *ngIf="filteredReactions.length > 0 || filteredMetabolites.length > 0 || filteredPathways.length > 0">
+        
+         <div class="col-md-4" *ngIf="filteredPathways.length > 0">
+          <div >
+            <h2>Pathways</h2>
+            <div *ngFor="let p of filteredPathways" id="change-color-on-mouse-over">
+              <ul>
+                <li>
+                  <a (click)="search(p)">
+                    <b>{{ p }}</b>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4" *ngIf="filteredReactions.length > 0">
+            <h2>Reactions</h2>
+            <div *ngFor="let r of filteredReactions" id="change-color-on-mouse-over">
+              <ul>
+                <li>
+                  <a (click)="search(r.name)">
+                    <b>{{ r.id }}</b> {{ r.name }}
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+  
+        <div class="col-md-4" *ngIf="filteredMetabolites.length > 0">
+            <h2>Metabolites</h2>
+            <div *ngFor="let m of filteredMetabolites" id="change-color-on-mouse-over">
+              <ul>
+                <li>
+                  <a (click)="search(m.name)">
+                    <b>{{ m.id }}</b> {{ m.name }}
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>

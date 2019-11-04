@@ -1,0 +1,26 @@
+<span *ngIf="selectedMetabolite.stoichiometry > 0">
+    <b>{{ selectedMetabolite.id }}</b> +
+</span>
+<span *ngFor="let r of reactants;let i = index;">
+  {{ i ? "+" : "" }}
+  {{r.stoichiometry - 1 ? r.stoichiometry : ""}}
+  <b *ngIf="selectedMetabolite == r.id">
+      {{ selectedMetabolite }}
+  </b>
+  <a *ngIf="selectedMetabolite != r.id" [routerLink]="['/metabolite', r.id]">
+    {{r.id}}
+  </a>
+</span> →
+<span *ngIf="selectedMetabolite.stoichiometry < 0">
+    <b>{{ selectedMetabolite.id }}</b> +
+</span>
+<span *ngFor="let p of products;let i = index;">
+  {{ i ? "+" : "" }}
+  {{p.stoichiometry - 1 ? p.stoichiometry : ""}}
+  <b *ngIf="selectedMetabolite == p.id">
+      {{ selectedMetabolite }}
+  </b>
+  <a *ngIf="selectedMetabolite != p.id" [routerLink]="['/metabolite', p.id]">
+    {{p.id}}
+  </a>
+</span>

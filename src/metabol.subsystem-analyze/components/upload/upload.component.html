@@ -1,0 +1,26 @@
+<div *ngIf="!conTable.length">
+  <div class="row">
+    <div class="col-md-12">
+      <a [routerLink]="['/documentation']">
+        <span class="glyphicon glyphicon-question-sign pull-right"></span>
+      </a>
+    </div>
+  </div>
+  <div class="form-horizontal">
+    <div class="form-group">
+      <label class="col-sm-1 control-label">CSV:</label>
+      <div class="col-sm-10 col-md-4">
+        <input type="file" class="form-control" (change)="csvChange($event)">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-1 control-label">JSON:</label>
+      <div class=" col-sm-10 col-md-4">
+        <input type="file" class="form-control" (change)="jsonChange($event)">
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="conTable.length">
+  <concentration-table [conTable]="conTable"></concentration-table>
+</div>

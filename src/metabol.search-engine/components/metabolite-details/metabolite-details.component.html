@@ -1,0 +1,84 @@
+<section class="metaboliteDetails">
+  <div *ngIf="metabolite" class="metaboliteDetailsChild col-md-8 col-md-offset-2">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          <strong>
+            {{metabolite.name}}
+          </strong>
+        </h3>
+      </div>
+      <div class="panel-body">
+        <p *ngIf="metabolite.id">
+          id: {{metabolite.id}} {{metaboliteId}}
+        </p>
+        <p *ngIf="metabolite.name">
+          name: {{metabolite.name}}
+        </p>
+        <p *ngIf="metabolite.compartment">
+          compartment: {{metabolite.compartment}}
+        </p>
+        <p *ngIf="metabolite.charge">
+          charge: {{metabolite.charge}}
+        </p>
+        <p *ngIf="synonyms.length > 0">
+          synonyms: {{ synonyms.join(', ')}}
+        </p>
+        <br>
+        <div class="row">
+          <div class="col-md-12">
+            <visualization-metabolite [id]="metabolite.id"></visualization-metabolite>
+          </div>
+        </div>
+        <div *ngIf="relatedPathways">
+          <h4>
+            <strong>Connected Pathways</strong>
+          </h4>
+          <table class="table table-hover">
+            <tbody>
+              <tr>
+                <td>
+                  <strong>Pathway</strong>
+                </td>
+              </tr>
+              <tr *ngFor="let p of relatedPathways">
+                <td>
+                  <a [routerLink]="['/subsystem/detail', p]">
+                    {{p}}
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div *ngIf="relatedReactions">
+          <h4>
+            <strong>Connected Reactions</strong>
+          </h4>
+          <table class="table table-hover">
+            <tbody>
+              <tr>
+                <td>
+                  <strong>Reaction</strong>
+                </td>
+                <td>
+                  <strong>Chemical Formula</strong>
+                </td>
+              </tr>
+              <tr *ngFor="let r of relatedReactions">
+                <td>
+                  <a [routerLink]="['/reaction', r.id]">
+                    {{r.name}}
+                  </a>
+                </td>
+                <td>
+                  <chemical-equation [metabolites]="r.metabolites" [selectedMetabolite]="metabolite.id"></chemical-equation>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

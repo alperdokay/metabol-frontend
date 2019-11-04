@@ -1,0 +1,74 @@
+<div class="row">
+  <div class="form-group col-mat-4">
+    <label>Analyze Name</label>
+    <input [formControl]="analyzeName" type="text" class="form-control" placeholder="Analyze Name">
+    <span class="text-danger" *ngIf="!analyzeName.valid && analyzeName.dirty">
+      Field Required
+    </span>
+  </div>
+  <div class="form-group col-mat-4">
+    <label>Public or Private</label>
+    <div>
+      <mat-slide-toggle [formControl]="isPublic">{{ isPublic.value ? 'Public' : 'Private' }}</mat-slide-toggle>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Metabolite Name</th>
+            <th>Change Value</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="form-group">
+                <input formControlName="name" type="text" class="form-control" placeholder="Metabolite Name">
+                <span class="text-danger" *ngIf="!form.controls['name'].valid && form.controls['name'].dirty">
+                  Field Required
+		</span>
+              </div>
+            </td>
+            <td>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Value" formControlName="value">
+                <span class="text-danger" *ngIf="form.errors?.exactValueEmpty && form.controls['value'].dirty">
+                  Field Required
+		</span>
+              </div>
+            </td>
+            <td>
+              <input [disabled]="!form.valid" type="submit" class="btn btn-default" value="Add">
+            </td>
+          </tr>
+          <tr *ngFor="let r of conTable;let i=index">
+            <td>{{ r[0] }}</td>
+            <td>{{ r[1] }}</td>
+            <td>
+              <span class="glyphicon glyphicon-remove" aria-hidden="true" (click)="remove(i)"></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </form>
+</div>
+<!-- <button (click)="analyze()" class="btn btn-default" [disabled]="!analyzeName.valid">Analyze</button> -->
+<div class="row">
+    <div class="col-md-1">
+      <h4>Method:</h4>
+    </div>
+    <div class="col-md-3">
+      <select [(ngModel)]="selectedMethod" class="form-control">
+        <option *ngFor="let item of comboboxMethods" [ngValue]="item.id">{{item.name}}</option> 
+      </select>
+    </div>
+    <div class="col-md-2">
+      <button (click)="analyze()" class="btn btn-default" [disabled]="!analyzeName.valid">Analyze</button>
+    </div>
+  </div>

@@ -1,0 +1,55 @@
+<section id="search-analysis" fxLayout="row" fxLayoutAlign="center start">
+  <mat-card fxFlex.gt-sm="900px">
+    <mat-card-header>
+      <mat-card-title>
+	<h3>Search Analysis Results</h3>
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form [formGroup]="form" (ngSubmit)="add(form.value)">
+	<mat-form-field>
+	  <input matInput placeholder="Choose Pathway" [matAutocomplete]="auto" formControlName="pathway">
+	</mat-form-field>
+	<mat-autocomplete #auto="matAutocomplete">
+	  <mat-option *ngFor="let p of filteredPathways | async" [value]="p">
+	    {{ p }}
+	  </mat-option>
+	</mat-autocomplete>
+	<mat-select placeholder="Choose Change" formControlName="change">
+	  <mat-option value="1">Increase</mat-option>
+	  <mat-option value="-1">Decrease</mat-option>
+	</mat-select>   
+	<mat-select placeholder="Diff Qualifier" formControlName="qualifier">
+	  <mat-option value="lt">Up-to</mat-option>
+	  <mat-option value="gt">At least</mat-option>
+	  <mat-option value="eq">Around (+/- 10)</mat-option>
+	</mat-select>
+	<mat-autocomplete #auto="matAutocomplete">
+	  <mat-option *ngFor="let p of filteredPathways | async" [value]="p">
+	    {{ p }}
+	  </mat-option>
+	</mat-autocomplete>
+	<mat-form-field>
+	  <input matInput placeholder="Diff Amount" formControlName="amount">
+	</mat-form-field>
+	<button mat-mini-fab [disabled]="!form.valid"><mat-icon>add</mat-icon></button>
+      </form>
+      <table class="table">
+	<tr *ngFor="let r of pathwayChanges;let i=index">
+          <td>{{ r.pathway }}</td>
+          <td>{{ r.change > 0 ? 'Increase' : 'Decrease' }}</td>
+          <td>
+	     <ng-template [ngIf]="r.qualifier == 'lt'">Up-to</ng-template>
+	     <ng-template [ngIf]="r.qualifier == 'gt'">At least</ng-template>
+	     <ng-template [ngIf]="r.qualifier == 'eq'">Around (+/- 10)</ng-template>	    
+	  </td>
+          <td>{{ r.amount }}</td>
+          <td>
+            <span class="glyphicon glyphicon-remove text-danger" aria-hidden="true" (click)="remove(i)"></span>
+          </td>
+	</tr>
+      </table>
+      <button mat-raised-button [disabled]="pathwayChanges.length == 0" color="accent" (click)="search()">Search</button>
+    </mat-card-content>
+  </mat-card>
+</section>
